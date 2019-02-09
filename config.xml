@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="aulavirtual.vecchioli" version="3.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.aulavirtual.vecchioli.app" version="3.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Aula Virtual - Escuela Vecchioli</name>
-    <description>Aula Virtual - Escuela Nº 429 "Mario R. Vecchioli"</description>
-    <author email="ecolombero@esctech.com.ar" href="http://esctech.com.ar">ESCTech Soluciones Informáticas</author>
+    <description>Aula Virtual - Escuela NÂº 429 "Mario R. Vecchioli"</description>
+    <author email="ecolombero@esctech.com.ar" href="http://esctech.com.ar">ESCTech Soluciones InformÃ¡ticas</author>
     <content src="index.html" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
