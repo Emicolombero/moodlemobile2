@@ -125,7 +125,7 @@
     <plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
         <variable name="SENDER_ID" value="694767596569" />
     </plugin>
-<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Moodle']" mode="merge">
+<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Aula Virtual - Esceula Vecchioli']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
     <engine name="android" spec="7.1.2" />
