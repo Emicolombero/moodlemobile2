@@ -1,6 +1,6 @@
 {
-    "app_id": "aulavirtual.vecchioli",
-    "appname": "Aula Virtual - Escuela Vecchioli",
+    "app_id": .com.aulavirtual.moodle",
+    "appname": "Aula Virtual",
     "desktopappname": "Moodle Desktop",
     "versioncode": 3600,
     "versionname": "3.6.0",
