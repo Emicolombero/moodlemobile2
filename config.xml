@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.aulavecchioli.moodle" version="3.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Aula Virtual - Esceula Vecchioli</name>
+    <name>Vecchioli</name>
     <description>Escuela M. Vecchioli</description>
     <author email="mobile@moodle.com" href="http://moodle.com">Moodle Mobile team</author>
     <content src="index.html" />
@@ -125,6 +125,9 @@
     <plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
         <variable name="SENDER_ID" value="694767596569" />
     </plugin>
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name=Vecchioli']" mode="merge">
+        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
+    </edit-config>
     <engine name="android" spec="7.1.2" />
     <engine name="ios" spec="4.5.5" />
 </widget>
